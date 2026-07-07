@@ -53,6 +53,6 @@ public class q1 {
                 System.out.println("Invalid choice!");
         }
 
-        sc.close();
+    
     }
 }
