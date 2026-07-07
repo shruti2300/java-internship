@@ -53,6 +53,6 @@ public class q2 {
         System.out.println("Average : " + student.average);
         System.out.println("Grade : " + student.grade);
 
-        sc.close();
+        
     }
 }
