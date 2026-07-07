@@ -4,7 +4,6 @@ import java.util.Scanner;
 
 public class Q6 {
     public static void main(String[] args) {
-        // Dummy credentials stored in a HashMap (username -> password)
         Map<String, String> credentials = new HashMap<>();
         credentials.put("admin", "admin123");
         credentials.put("john", "john@2025");
@@ -19,7 +18,6 @@ public class Q6 {
         System.out.print("Enter password: ");
         String password = sc.nextLine();
 
-        // Validate login
         if (credentials.containsKey(username)) {
             String correctPassword = credentials.get(username);
 
